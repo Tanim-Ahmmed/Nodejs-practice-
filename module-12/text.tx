@@ -1,1 +1,33 @@
---domain name , ip address 
+1.1
+--domain name -> ip address
+
+http request = method -> request headers -> request body 
+http response = status code and message -> response header -> response body
+
+
+1.2
+static 
+dynamic using templet enginge -server side randaring 
+dynamic using api
+
+1.4
+process -> environment of run a set of instruction, a exicutable file.
+
+threads -> unit of exicution 
+event driven - thread pool
+
+
+1.5
+
+multi thread -> 1. horizontal scaling , 2. vertical scaling
+
+1.6
+
+io intensive task in thread pool
+
+event loop works in event driven architecure 
+
+
+ callback queues priority = start -> expired timer callbacks -> io polling and callbacks -> set immidiate callbacks -> close callbacks
+
+1.8
