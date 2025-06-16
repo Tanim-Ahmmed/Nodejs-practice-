@@ -35,3 +35,10 @@ event loop works in event driven architecure
 
 event loop
 
+2.2
+
+synchronous
+file read / io intensive ->  single thread -> not go thread pool
+
+asynchronous 
+file read -> single thread -> event loop -> thread pool -> task completion
