@@ -30,4 +30,8 @@ event loop works in event driven architecure
 
  callback queues priority = start -> expired timer callbacks -> io polling and callbacks -> set immidiate callbacks -> close callbacks
 
-1.8
+
+2.1
+
+event loop
+
