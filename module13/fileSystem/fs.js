@@ -36,7 +36,8 @@
 
 
 
-//  const arr = [4,6,3,7,2];
+
+//  const arr = [4,6,3,7,2, 9];
  
 //  let max = arr[0];
 //  for(let i = 1; i < arr.length; i++ ){
@@ -81,4 +82,184 @@
 //        even ++;
 //    }
 // }
-// console.log(even)
+// console.log("running")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function findSecondMax(arr){
+    
+//     let max = arr[0];
+//     let secondMax = -Infinity;
+
+//      for(let i = 1; i < arr.length; i++ ){
+//         let temp = arr[i]
+
+//         if(temp > max){
+//             secondMax = max;
+//             max =temp;
+//         } else if (temp > secondMax && temp < max){
+//             secondMax = temp;
+//         } 
+//      }
+
+//       if (secondMax === -Infinity){
+//             return "no valid second max element found"
+//         } 
+
+//      return secondMax;
+// }
+
+
+// console.log(findSecondMax([1]))
+
+
+
+// function findSecondMax(arr){
+//     let max = arr[0];
+//     let secondMax = -Infinity;
+
+//     for(let i =1; i < arr.length; i++ ){
+//         let temp = arr[i];
+
+//         if(temp > max){
+//             secondMax = max;
+//             max = temp;
+//         } else if (temp > secondMax && temp < max){
+//             secondMax = temp;
+//         }
+//     }
+//     if(secondMax === -Infinity){
+//         return "no second max found "
+//     }
+//     return secondMax;
+// }
+
+
+// console.log(findSecondMax([3]))
+
+
+//  function sumOfArr(arr){
+    
+//     let sum = arr[0];
+
+//     for(i = 1; i < arr.length ; i++){
+//         sum += arr[i];
+//     }
+//     return sum;
+//  }
+
+//  console.log(sumOfArr([5,6,5,6]))
+
+// function arrMax(arr){
+//     let max = arr[0]
+
+//     for(i = 1; i < arr.length ; i++){
+//         if(arr[i] > max){
+//             max = arr[i]
+//         }
+//     }
+//     return max;
+// }
+
+
+// console.log(arrMax([3,8,3,7]))
+
+
+
+// function countVawels(str){
+//     let count = 0;
+//     for(let i = 0; i < str.length ; i++){
+//           let ch = str[i].toLowerCase();
+
+//         if(ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u'){
+//             count ++;
+//         }
+//     }
+//     return count
+// }
+
+
+// console.log(countVawels('Tanim'))
+
+
+
+// function secondMax(arr){
+//     let max = arr[0];
+//     let secMax = -Infinity;
+
+//     for(i =1 ; i < arr.length ; i++){
+
+//         let temp = arr[i];
+
+//         if(arr[i]> max){
+//             secMax = max
+//             max = arr[i]
+//         }
+//         else if(arr[i] <max && arr[i] > secMax){
+//             secMax = arr[i]
+//         }
+//     }
+
+//     return secMax;
+// }
+
+
+console.log(secondMax([1,4,6,7,6,5]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
